@@ -1,6 +1,6 @@
 {% set name = "webargs" %}
-{% set version = "1.4.0" %}
-{% set sha256 = "6ec4a2defc02819d9a7a6c8bc304e1d3a15fea0aff570c4b094f44fe2852a6c3" %}
+{% set version = "1.5.3" %}
+{% set sha256 = "bc6d1c7b2433fc17d7fd86ced48d7fc8a8df5919a3742b8540ec3c0a0fe3e985" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
