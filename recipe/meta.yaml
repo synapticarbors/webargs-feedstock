@@ -1,6 +1,6 @@
 {% set name = "webargs" %}
-{% set version = "1.6.0" %}
-{% set sha256 = "77e6014eb52d8b595c4250141478ec4ca6d26c47b92273ebf89fa4910b7795c4" %}
+{% set version = "1.8.1" %}
+{% set sha256 = "f568a838cd296d51726901efbc54559e11f553d1d8b862acc0ce3c5950581e3d" %}
 
 package:
   name: {{ name|lower }}
@@ -12,6 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
+  noarch: python
   number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
 
@@ -21,7 +22,7 @@ requirements:
     - setuptools
   run:
     - python
-    - marshmallow >=2.0.0
+    - marshmallow >=2.7.0
 
 test:
   imports:
@@ -44,3 +45,4 @@ about:
 extra:
   recipe-maintainers:
     - frol
+    - synapticarbors
