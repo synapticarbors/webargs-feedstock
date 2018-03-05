@@ -1,6 +1,6 @@
 {% set name = "webargs" %}
-{% set version = "1.8.1" %}
-{% set sha256 = "f568a838cd296d51726901efbc54559e11f553d1d8b862acc0ce3c5950581e3d" %}
+{% set version = "2.0.0" %}
+{% set sha256 = "1e114e3875da66a405b435326f727a65f487fcab3e19336b13bc6c8a0691c159" %}
 
 package:
   name: {{ name|lower }}
@@ -46,3 +46,4 @@ extra:
   recipe-maintainers:
     - frol
     - synapticarbors
+    - mcs07
