@@ -17,12 +17,15 @@ Bottle, Tornado, Pyramid, webapp2, Falcon, and aiohttp.
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/webargs-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/webargs-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/webargs-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/webargs-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/webargs/badges/version.svg)](https://anaconda.org/conda-forge/webargs)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/webargs/badges/downloads.svg)](https://anaconda.org/conda-forge/webargs)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-webargs-green.svg)](https://anaconda.org/conda-forge/webargs) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/webargs.svg)](https://anaconda.org/conda-forge/webargs) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/webargs.svg)](https://anaconda.org/conda-forge/webargs) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/webargs.svg)](https://anaconda.org/conda-forge/webargs) |
 
 Installing webargs
 ==================
