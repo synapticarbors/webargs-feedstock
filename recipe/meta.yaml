@@ -22,7 +22,7 @@ requirements:
     - pip
   run:
     - python
-    - marshmallow >=2.7.0
+    - marshmallow >=2.15.0
 
 test:
   imports:
