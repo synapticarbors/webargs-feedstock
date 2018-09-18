@@ -1,6 +1,6 @@
 {% set name = "webargs" %}
-{% set version = "4.0.0" %}
-{% set sha256 = "68d2e9c03b1d0516b79fe85e203736b6f9fb66e89db108f5f71eae6f5c68e517" %}
+{% set version = "4.1.0" %}
+{% set sha256 = "aead0d490de69c93ad880eec64bcbe7c63edc8f6441392d3d36ad5dc1670b8a9" %}
 
 package:
   name: {{ name|lower }}
@@ -14,10 +14,10 @@ source:
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
 
 requirements:
-  build:
+  host:
     - python
     - pip
   run:
