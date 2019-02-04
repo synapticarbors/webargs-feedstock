@@ -1,6 +1,6 @@
 {% set name = "webargs" %}
-{% set version = "5.1.1.post0" %}
-{% set sha256 = "d2b6006ecfd4328ddedd746c4f57eeafad4a4e191c891539f7b3eda8b69609a4" %}
+{% set version = "5.1.2" %}
+{% set sha256 = "10438164b41b81abe45b299eb182580f7bc6bcdbc864b0cbd62845bb6bab424d" %}
 
 package:
   name: {{ name|lower }}
