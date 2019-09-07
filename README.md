@@ -1,7 +1,7 @@
 About webargs
 =============
 
-Home: https://github.com/sloria/webargs
+Home: https://github.com/marshmallow-code/webargs
 
 Package license: MIT
 
