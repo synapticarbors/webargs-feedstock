@@ -14,7 +14,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
   host:
@@ -22,14 +22,14 @@ requirements:
     - pip
   run:
     - python
-    - marshmallow >=2.15.0
+    - marshmallow >=2.15.2
 
 test:
   imports:
     - webargs
 
 about:
-  home: https://github.com/sloria/webargs
+  home: https://github.com/marshmallow-code/webargs
   license: MIT
   license_family: MIT
   license_file: LICENSE
@@ -40,7 +40,7 @@ about:
     built-in support for popular web frameworks, including Flask, Django,
     Bottle, Tornado, Pyramid, webapp2, Falcon, and aiohttp.
   doc_url: http://webargs.readthedocs.io/
-  dev_url: https://github.com/sloria/webargs
+  dev_url: https://github.com/marshmallow-code/webargs
 
 extra:
   recipe-maintainers:
